@@ -1,0 +1,39 @@
+{
+  "id": "4cdb15d3-4e65-48ff-916c-13f7e0e7092c",
+  "name": "BulkMigrationTool",
+  "publisher": "ShiftAL",
+  "version": "1.0.0.0",
+  "brief": "Automates bulk data migration from OnPrem SQL to BC Cloud via API.",
+  "description": "This app facilitates the migration of data in bulk from OnPremises SQL databases to Business Central Cloud using API integration.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+     {
+      "id": "58623bfa-0559-4bc2-ae1c-0979c29fd9e0",
+      "name": "Intelligent Cloud Base",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
